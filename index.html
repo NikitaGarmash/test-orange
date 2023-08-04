@@ -5,27 +5,289 @@
     <meta charset="UTF-8">
     <meta name="theme-color" content="#188de7">
     <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no" />
-    <title>Сборка Markup</title>
-    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Test-orange</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/slick.css" />
+    <link rel="stylesheet" href="assets/css/fancybox.panzoom.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/panzoom/5.2.1/panzoom.min.css">
+    <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-
     <header>
-        <h2>Привет, Мир!)</h2>
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+            <picture>
+              
+              <source media="(min-width:1025px)" srcset="assets/img/test-logo.png">
+              <img src="assets/img/test-logo.png" alt="Logo">
+            </picture>
+          </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" id="lined" aria-current="page" href="#">ГЛАВНАЯ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">ГАЛЕРЕЯ</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">ПРОЕКТЫ</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">СЕРТИФИКАТЫ</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">КОНТАКТЫ</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </header>
 
 
     <main class="wrapper home">
-        <div class="container">
-            <h1>Hellow, I am first screen</h1>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus doloremque sequi laborum, quidem ipsum modi. Illo eius qui veniam laboriosam unde perferendis maiores, consequuntur ab rerum animi veritatis nesciunt. Sint.
-        </div>
+        <section class="first-screen">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <p>PROJECT</p>
+
+                        <span>HOME</span>
+                        <br>
+                        <button class="arrow-left">
+                            <img src="assets/img/arrow-left.png" alt="">
+                        </button>
+                        <button class="arrow-right">
+                            <img src="assets/img/arrow-right-0.png" alt="">
+                        </button>
+                        <br>
+
+                        <div class="data">
+                            <span>01</span>
+                            <img src="assets/img/slash.png" alt="">
+                            <span class="after-slash">02</span>
+                        </div>
+
+                    </div>
+                    <div class="col-md-8">
+                        <img class="img-fluid" src="assets/img/main-test.png" alt="">
+                        <button>ВЗГЛЯНУТЬ
+                            <img src="assets/img/arrow-right-0.png" alt="">
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="about-us">
+            <div class="container">
+                <div class="about-block">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="assets/img/about-us-1.png" alt="">
+                            <img src="assets/img/about-us-2.png" alt="">
+                        </div>
+                        <div class="col-md-3">
+                            <img src="assets/img/about-us-3.png" alt="">
+                        </div>
+                        <div class="col-md-5">
+                            <h2>О компании </h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis fugit quo id. Nemo reprehenderit animi nobis obcaecati quas adipisci vero fuga exercitationem iste aperiam voluptate sit odit, sed, maxime distinctio, eligendi alias ullam itaque neque. Assumenda, recusandae ab! Qui ipsum provident, magnam eos veniam aperiam deleniti necessitatibus molestias nobis est.</p>
+                            <button>ЧИТАТЬ
+                                <img src="assets/img/arrow-right-0.png" alt="">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="main-task">
+            <div class="container">
+                <div class="title-task">
+                    <h2>Основые задачи</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <span>1</span>
+                        <div class="first-task">
+                            <p>Создание комфортных условий и повышение качества обслуживания клиентов</p>
+                        </div>
+
+                    </div>
+                    <div class="col-md-6">
+                        <span>2</span>
+                        <div class="second-task">
+                            <p>Постоянно совершенствовать качество предоставляемых услуг путем обучения персонала, закупки нового оборудования и усиленной рекламы на рынке</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <section class="projects">
+            <div class="container">
+                <h2>
+            Наши проекты
+        </h2>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="gray-block">
+                            <img class="img-fluid" src="assets/img/projects-1.png" alt="">
+                            <div class="text-block">
+                                <h2>
+                             ДОСУГОВЫЙ ЦЕНТР
+                        </h2>
+                                <a href="">ПОДРОБНЕЕ 
+                            <img src="assets/img/arrow-white.png" alt=""> </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <img class="second-img" src="assets/img/projects-2.png" alt="">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3">
+                        <img class="third-img" src="assets/img/projects-3.png" alt="">
+                    </div>
+                    <div class="col-md-4">
+                        <img  src="assets/img/projects-4.png" alt="">
+                    </div>
+                    <div class="col-md-5">
+                        <img  src="assets/img/projects-5.png" alt="">
+                    </div>
+                </div>
+                <button>ВСЕ ПРОЕКТЫ
+                    <img src="assets/img/arrow-white.png" alt="">
+                </button>
+            </div>
+
+        </section>
+
+        <section class="contact">
+            <div class="container">
+                <div class="title-contact">
+                    <h2>Связаться с нами</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="input-box">
+
+                            <input type="text" id="user-name" name="user-name" placeholder="Имя">
+
+                        </div>
+
+                        <div class="input-box">
+
+                            <input type="text" id="phone-number" name="phone-number" placeholder="Номер телефона">
+                            <span class="star-phone">*</span>
+                        </div>
+
+                        <div class="input-box">
+
+                            <input type="text" id="user-email" name="user-email" placeholder="E-mail">
+                            <span class="star-mail">*</span>
+                        </div>
+
+                        <div class="input-box">
+
+                            <input type="text" id="product-name" name="product-name" placeholder="Интересующий товар/услуга">
+                        </div>
+
+                        <div class="input-box">
+
+                            <input type="text" id="message" name="message" placeholder="Сообщение">
+                            <span class="star-message">*</span>
+                        </div>
+                    </div>
+                    <div class="col-md-8">
+                        <img class="img-fluid" src="assets/img/contact-ph.png" alt="">
+                    </div>
+                </div>
+                <div class="p-box">
+                    <p>Отправляя заявку Вы соглашаетесь
+                        с политикой
+                        конфиденциальности</p>
+                </div>
+                <button>ОТПРАВИТЬ
+                    <img src="assets/img/arrow-white.png" alt="">
+                </button>
+            </div>
+        </section>
+
     </main>
     <footer>
-        Footer
+        <div class="container">
+            <div class="row">
+                <div class="logo-block">
+                    <img src="assets/img/footer-logo.png" alt="">
+                </div>
+
+                <div class="info-block">
+                    <h5>Информация</h5>
+                    <p>Главная</p>
+                    <p>Галерея</p>
+                    <p>Проекти</p>
+                    <p>Сертификаты</p>
+                    <p>Контакты</p>
+                </div>
+
+                <div class="contacts-block">
+                    <h5>Контакты</h5>
+                    <div class="geo">
+                        <img src="assets/img/footer-geo.png" alt="">
+                        <div class="geo-text">
+                            <p>100000, Республика Казахстан,
+                                г. Караганда, ул. Телевизионная 10</p>
+                        </div>
+                    </div>
+
+                    <div class="geo">
+                        <img src="assets/img/footer-phone.png" alt="">
+                        <div class="geo-text">
+                            <p>+38 (000) 000 00 00
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="geo">
+                        <img  src="assets/img/footer-mail.png" alt="">
+                        <div class="geo-text">
+                            <p class="mail">mail@gmail.com
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="social-block">
+                    <h5>Социальные сети</h5>
+                    <div class="social-box">
+                        <a href=""><img src="assets/img/facebook.png" alt=""></a>
+                        <a href=""><img src="assets/img/twitter.png" alt=""></a>
+                        <a href=""><img src="assets/img/linkedin.png" alt=""></a>
+                        <a href=""><img src="assets/img/pinterest.png" alt=""></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
     </footer>
-    <script async src="assets/js/custom.js"></script>
+    <script src="assets/js/jquery-3.7.0.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/slick.min.js"></script>
+    <script src="assets/js/fancybox.panzoom.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/panzoom/5.2.1/panzoom.min.js"></script>
+    <script src="assets/js/custom.js"></script>
 </body>
 
 </html>
