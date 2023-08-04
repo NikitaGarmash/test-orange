@@ -169,6 +169,10 @@ h6,
   font-weight: 400;
   letter-spacing: 2px;
 }
+.first-screen .col-md-8 button:hover {
+  background-color: #F2F2F2;
+  font-weight: 600;
+}
 .first-screen .col-md-8 button img {
   margin-left: 10px;
 }
@@ -212,6 +216,10 @@ h6,
   letter-spacing: 3px;
   width: 222px;
   height: 71px;
+}
+.about-us .about-block .col-md-5 button:hover {
+  background-color: #f1f0f0;
+  font-weight: 600;
 }
 .about-us .about-block .col-md-5 button img {
   margin-left: 5px;
@@ -275,6 +283,10 @@ h6,
 .projects .col-md-6 {
   margin-bottom: 25px;
 }
+.projects .col-md-6:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
 .projects .col-md-6 .gray-block {
   position: relative;
   width: 570px;
@@ -312,6 +324,18 @@ h6,
 }
 .projects .col-md-5 {
   padding-left: 115px;
+}
+.projects .col-md-5:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+.projects .col-md-4:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+.projects .col-md-3:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
 }
 .projects button {
   margin-top: 35px;
@@ -389,6 +413,11 @@ h6,
   width: 222px;
   margin: 12px;
   font-size: 12px;
+}
+.contact button:hover {
+  background-color: rgba(61, 61, 61, 0.9137254902);
+  box-shadow: #3d3d3d;
+  font-weight: 600;
 }
 .contact button img {
   margin-left: 10px;
@@ -636,7 +665,7 @@ footer .row .social-block .social-box img {
 }
 @media screen and (max-width: 575px) {
   .about-us {
-    height: 85vh;
+    height: 100vh;
   }
   .about-us .about-block {
     height: 800px;
@@ -648,13 +677,13 @@ footer .row .social-block .social-box img {
     width: 100%;
   }
   .about-us .col-md-5 h2 {
-    font-size: 28px;
+    font-size: 20px;
   }
   .about-us .col-md-5 button {
     border: 2px solid #333333;
   }
   .projects {
-    height: 110vh;
+    height: 120vh;
   }
   .projects .row {
     display: flex;
@@ -680,13 +709,13 @@ footer .row .social-block .social-box img {
     display: none;
   }
   .contact {
-    height: 100vh;
+    height: 110vh;
   }
   .contact .p-box {
     width: 300px;
   }
   .main-task {
-    height: 85vh;
+    height: 100vh;
   }
   .main-task p {
     font-size: 12px;

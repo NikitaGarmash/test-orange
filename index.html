@@ -8,8 +8,7 @@
     <title>Test-orange</title>
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
     <link rel="stylesheet" href="assets/css/slick.css" />
-    <link rel="stylesheet" href="assets/css/fancybox.panzoom.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/panzoom/5.2.1/panzoom.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css" />
 </head>
 
@@ -93,17 +92,17 @@
             <div class="container">
                 <div class="about-block">
                     <div class="row">
-                        <div class="col-md-4">
+                        <div data-aos="fade-right" class="col-md-4">
                             <img src="assets/img/about-us-1.png" alt="">
                             <img src="assets/img/about-us-2.png" alt="">
                         </div>
-                        <div class="col-md-3">
+                        <div data-aos="flip-left" data-aos-duration="2000" class="col-md-3">
                             <img src="assets/img/about-us-3.png" alt="">
                         </div>
                         <div class="col-md-5">
                             <h2>О компании </h2>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis fugit quo id. Nemo reprehenderit animi nobis obcaecati quas adipisci vero fuga exercitationem iste aperiam voluptate sit odit, sed, maxime distinctio, eligendi alias ullam itaque neque. Assumenda, recusandae ab! Qui ipsum provident, magnam eos veniam aperiam deleniti necessitatibus molestias nobis est.</p>
-                            <button>ЧИТАТЬ
+                            <button data-aos="fade-left">ЧИТАТЬ
                                 <img src="assets/img/arrow-right-0.png" alt="">
                             </button>
                         </div>
@@ -114,17 +113,17 @@
         <section class="main-task">
             <div class="container">
                 <div class="title-task">
-                    <h2>Основые задачи</h2>
+                    <h2 data-aos="fade-right">Основые задачи</h2>
                 </div>
                 <div class="row">
-                    <div class="col-md-6">
+                    <div data-aos="fade-up" data-aos-duration="2000" class="col-md-6">
                         <span>1</span>
                         <div class="first-task">
                             <p>Создание комфортных условий и повышение качества обслуживания клиентов</p>
                         </div>
 
                     </div>
-                    <div class="col-md-6">
+                    <div data-aos="fade-up" data-aos-duration="2000" class="col-md-6">
                         <span>2</span>
                         <div class="second-task">
                             <p>Постоянно совершенствовать качество предоставляемых услуг путем обучения персонала, закупки нового оборудования и усиленной рекламы на рынке</p>
@@ -135,7 +134,7 @@
 
         </section>
         <section class="projects">
-            <div class="container">
+            <div data-aos="zoom-in" data-aos-duration="2000" class="container">
                 <h2>
             Наши проекты
         </h2>
@@ -210,7 +209,7 @@
                             <span class="star-message">*</span>
                         </div>
                     </div>
-                    <div class="col-md-8">
+                    <div data-aos="zoom-in" data-aos-duration="2000" class="col-md-8">
                         <img class="img-fluid" src="assets/img/contact-ph.png" alt="">
                     </div>
                 </div>
@@ -285,8 +284,10 @@
     <script src="assets/js/jquery-3.7.0.min.js"></script>
     <script src="assets/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/slick.min.js"></script>
-    <script src="assets/js/fancybox.panzoom.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/panzoom/5.2.1/panzoom.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+    AOS.init();
+    </script>
     <script src="assets/js/custom.js"></script>
 </body>
 
